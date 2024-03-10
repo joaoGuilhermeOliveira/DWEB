@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/styles_contato.css">
+    <link rel="stylesheet" href="css/fontes.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="https://www.youtube.com/watch?v=AYZIIATwgks" target="_blank"><img src="img/logo.png"
+                    alt="Candy Shop Logo"></a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Página Inicial</a>
+                    </il>
+                <li>
+                    <a href="produtos.html">Produtos</a>
+                </li>
+                <li>
+                    <a href="sobre-nos.html">Sobre Nós</a>
+                </li>
+                <li>
+                    <a href="Contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main class="contato">
+        <h1>Contato</h1>
+        <hr class="linha">
+        <br>
+        <p>
+            Se você tiver alguma dúvida, sugestão ou apenas quiser dizer olá, estamos aqui para ouvir você! Sinta-se à
+            vontade para entrar em contato conosco pelos seguintes meios:</p>
+
+        <h2>Telefone</h2>
+        <p>(42) 3333-4582 (segunda a sexta-feira, das 9h às 18h)</p>
+        <h2>E-mail</h2>
+        <p><a href="mailto:contato@candyshop.com.br">contato@candyshop.com.br</a> (respondemos em até 24 horas)</p>
+        <h2>Redes Sociais</h2>
+        <p>Siga-nos para ficar por dentro das novidades, promoções e inspirações</p>
+        <h2>Formulário de Contato</h2>
+        <form id="formulario" name="form" action="cadastra.php" method="post" onsubmit="return Enviar()">
+            <label for="nome" class="contato-label">Nome Completo</label> <br>
+            <input type="text" id="nome" class="contato-input" placeholder="Digite o seu nome"> <br> <br>
+        
+            <label for="email" class="contato-label">Email</label> <br>
+            <input type="email" id="email" class="contato-input" placeholder="email@email.com"> <br> <br>
+        
+            <label for="datanasc" class="contato-label">Data de Nascimento</label> <br> 
+            <input type="date" id="datanasc" class="contato-input"> <br> <br>
+        
+            <textarea id="comentario" class="contato-textarea" placeholder="Deixe o seu comentário"></textarea>
+            <input type="submit" class="contato-enviar" value="Enviar">
+        </form>
+    </main>
+    <hr>
+    <footer class="rodape">
+        <div class="pedidos">
+            <h3 class="pedido-msg">Faça já seu pedido!</h3>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="img/whatsapp.png" alt="whatsapp"
+                    id="whatsapp-img"></a>
+        </div>
+        <div class="info-geral">
+            <div class="sobre">
+                <p>Rua das Magnólias, 123, Centro, Irati-PR</p>
+                <p>(42) 3333-4582</p>
+                <a href="mailto:contato@candyshop.com.br">contato@candyshop.com.br</a>
+            </div>
+            <div class="info">
+                <p>
+                    2024 Candy Shop. Todos os direitos reservados.
+                    <br>
+                    CNPJ: 11.222.333/4444-55
+                </p>
+            </div>
+            <div class="redes-sociais">
+                <div class="instagram">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png"
+                            alt="instagram"></a>
+                </div>
+                <div class="facebook">
+                    <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"><img src="img/facebook.png"
+                            alt="facebook"></a>
+                </div>
+                <div class="tik-tok">
+                    <a href="https://www.tiktok.com/pt-BR/" target="_blank"><img src="img/tik-tok.png"
+                            alt="tik-tok"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script rel="contatojs/javascript" src="js/contato.js"></script>
+</body>
+
+</html>
